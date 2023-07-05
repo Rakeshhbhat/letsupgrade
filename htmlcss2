@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Card Layout</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+<style>
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  flex: 0 0 calc(33.33% - 20px);
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.card-title {
+  margin-top: 0;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.card-content {
+  margin-bottom: 0;
+}
+</style>
+</head>
+<body>
+  <div class="card-container">
+    <div class="card">
+      <h2 class="card-title">Card 1</h2>
+      <img class="card-image" src="image1.jpg" alt="Card 1 Image">
+      <p class="card-content">This is the content of Card 1.</p>
+    </div>
+    <div class="card">
+      <h2 class="card-title">Card 2</h2>
+      <img class="card-image" src="image2.jpg" alt="Card 2 Image">
+      <p class="card-content">This is the content of Card 2.</p>
+    </div>
+    <div class="card">
+      <h2 class="card-title">Card 3</h2>
+      <img class="card-image" src="image3.jpg" alt="Card 3 Image">
+      <p class="card-content">This is the content of Card 3.</p>
+    </div>
+  </div>
+</body>
+</html>
