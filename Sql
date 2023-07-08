@@ -1,11 +1,11 @@
 create database sales;
-
 create table orders(
        order_id int,
        customer_id int,
        order_date date,
-       order_total decimal(3,2));create database simpletodo;
+       order_total decimal(3,2));
 
+create database simpletodo;
 create table todo(
        task_id int primary key,
        task_name varchar(20),
